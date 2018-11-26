@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/fill_email2"
+        android:hint="@string/email"
+        android:textColorHint="@color/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address"
+        android:layout_marginTop="10dp"/>
+
+    <CheckBox
+        android:id="@+id/checkbox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fill_email2"
+        android:text="Autocomplete email addresses"/>
+
+    <EditText
+        android:id="@+id/fill_password"
+        android:hint="@string/password"
+        android:drawableRight="@drawable/hide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkbox2"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/notify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I'd like to receive announcements, promos and tips (update or opt out at any time)"
+        android:layout_marginRight="30dp"
+        android:layout_below="@id/fill_password"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/terms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/policy"
+        android:layout_below="@id/notify"
+        android:layout_marginTop="40dp"
+        />
+
+    <Button
+        android:id="@+id/btn3"
+        style="@style/button_layout"
+        android:layout_below="@id/terms"
+        android:background="@drawable/button2"
+        android:text="SIGN UP"
+        android:textColor="@color/background1"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn3"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="or sign in with" />
+
+    <Button
+        android:id="@+id/btn4"
+        style="@style/bottom_btn"
+        android:background="@drawable/button3"
+        android:text="GOOGLE"
+        android:layout_below="@id/txt3"
+        android:layout_marginLeft="30dp"/>
+
+    <Button
+        android:background="@drawable/button3"
+        android:text="FACEBOOK"
+        style="@style/bottom_btn"
+        android:layout_below="@id/txt3"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/btn4"
+        android:layout_marginRight="30dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Project Luno</string>
+
+    <string name="email">Email address</string>
+    <string name="password">Password</string>
+    <string name="policy">By signing up I agree to the <b>terms of use</b> and processing of my personal data as stated in the <b>privacy policy</b></string>
+</resources>
