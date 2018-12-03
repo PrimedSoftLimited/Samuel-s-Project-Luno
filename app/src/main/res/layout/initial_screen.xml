@@ -29,6 +29,7 @@
         android:layout_gravity="center_horizontal">
 
         <Button
+            android:id="@+id/signIn"
             style="@style/Horizontal_button"
             android:background="@drawable/button1"
             android:text="SIGN IN"
@@ -36,6 +37,7 @@
             android:textColor="@color/background1"/>
 
         <Button
+            android:id="@+id/signUp"
             style="@style/Horizontal_button"
             android:background="@drawable/button1"
             android:text="SIGN UP"
